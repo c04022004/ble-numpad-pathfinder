@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "keebio-parts")(type "KiCad")(uri "${KIPRJMOD}/keebio-parts.pretty")(options "")(descr ""))
+  (lib (name "micro-mp")(type "KiCad")(uri "${KIPRJMOD}/micro-mp.pretty")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/../libs/keyswitches.pretty")(options "")(descr ""))
+  (lib (name "c04-parts")(type "KiCad")(uri "${KIPRJMOD}/../libs/c04-parts.pretty")(options "")(descr ""))
+  (lib (name "Switches")(type "KiCad")(uri "${KIPRJMOD}/../libs/sparkfun-footprints/Switches.pretty")(options "")(descr ""))
+  (lib (name "misc_footprints")(type "KiCad")(uri "${KIPRJMOD}/../libs/misc_footprints.pretty")(options "")(descr ""))
+)

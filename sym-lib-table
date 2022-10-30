@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "keyboard-numpad-rescue")(type "Legacy")(uri "${KIPRJMOD}/numpad-test-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "radiotxt-rescue")(type "Legacy")(uri "${KIPRJMOD}/radiotxt-rescue.lib")(options "")(descr ""))
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/keebio-components/keebio.lib")(options "")(descr ""))
+  (lib (name "marbastlib-choc")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-choc.kicad_sym")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-mx.kicad_sym")(options "")(descr ""))
+  (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.kicad_sym")(options "")(descr ""))
+)
