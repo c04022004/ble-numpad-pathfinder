@@ -2,6 +2,13 @@
 
 A pathfinder PCB for the upcoming Lipo-powered version of ESP32 BLE numpad. Arduino code also attatched.
 
+[PDF Schematic](./sch-export.pdf)
+
+## Showcase
+
+Assembled PCB  
+
+<img src="./docs/1x1_20221031_004049.jpg" width="480">
 
 ## Credits
 
@@ -13,10 +20,5 @@ Here is the list of git repos:
 - https://github.com/ebastler/marbastlib
 - https://github.com/AnthonyDiGirolamo/i2c-thumb-keyboard
 - https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty
-
-
-## Showcase
-
-Assembled PCB  
-
-<img src="./docs/1x1_20221031_004049.jpg" width="480">
+- https://github.com/sparkfun/SparkFun-KiCad-Libraries
+- https://github.com/Digi-Key/digikey-kicad-library
