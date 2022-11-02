@@ -1,8 +1,10 @@
 # README
 
-A pathfinder PCB for the upcoming Lipo-powered version of ESP32 BLE numpad. Arduino code also attatched.
+A pathfinder PCB for the upcoming Lipo-powered version of ESP32 BLE numpad. Arduino code also attached.
 
 [PDF Schematic](./sch-export.pdf)
+
+[Arduino Code](./arduino-freertos-code/ble_keyboard/ble_keyboard.ino)
 
 ## Showcase
 
@@ -12,21 +14,24 @@ Assembled PCB
 
 
 ## Known Problems
-- USB Type-C CC pins was lay out incorrectly 
+- ~~USB Type-C CC pins was lay out incorrectly~~ (still testing, maybe a USB cable compat issue)
     - Reason: CC pins should be connected to `GND` with `5.1kΩ` resistor per USB Type-C definition ([link1](https://community.silabs.com/s/article/what-s-the-role-of-cc-pin-in-type-c-solution?language=en_US) [link2](https://community.silabs.com/s/article/legacy-usb-device-detection-by-type-c?language=en_US))
     - Temporary fix: not populating `R10` & `R11`, might led to inability to connect when Type-C plug is flipped
 - WS2812 data line `DIN` might be affected my noise
     - Problem: Should add a `500Ω` resistor in series on `DIN` line to improve signal reliability, as per NeoPixel UberGuide
     - Temporary fix: avoid changing CPU frequency scaling on-the-fly, which may affect GPIO line conditions
 - TCA8418 IC is not intended to be use with key matrix and diodes
-    - Reason: originally designed (pathfinder) for swapping in diode and check the effect of ghosting
-    - Temporary fix: populate diode components with `0805 0Ω` resistors 
+    - Reason: originally designed for (pathfinding) swapping in diode and check the effect of ghosting
+    - Temporary fix: populate diode components with `0805 0Ω` resistors
+- Hotplug shoe for keyswitch is not strong enough to hold it in place
+    - Reason: there is no faceplate to hold/align the keyswitches
+    - Temporary fix: use 5-pin version of keyswitches for added stability, use hotglue if necessary
 
-All issues should be fixed in the next revision to the PCB.
+Hopefully all issues can be fixed in the next revision to the PCB.
 
 ## Credits
 
-I used & referenced a lot from the design from the other opensource projects.  
+I used & referenced a lot from the design from the other open-source projects.  
 Here is the list of git repos:  
 
 ### KiCAD
