@@ -1,10 +1,8 @@
-# README
+# README.md
 
 A pathfinder PCB for the upcoming Lipo-powered version of ESP32 BLE numpad. Arduino code also attached.
 
-[PDF Schematic](./sch-export.pdf)
-
-[Arduino Code](./arduino-freertos-code/ble_keyboard/ble_keyboard.ino)
+[Schematics PDF](./sch-export.pdf) | [Arduino Code](./arduino-freertos-code/ble_keyboard/ble_keyboard.ino) | [3D model](./3d-models/numpad-case-v10.3mf)
 
 ## Showcase
 
@@ -22,12 +20,10 @@ Assembled PCB  w/ 3D print parts
 
 ## 3D-printed Parts
 
-The two 3D printed parts (front plate & base) are fixed to the PCB asembly with 2 M3x20 screws.  
-The parts are designed in Fusion360, and the exported files can be found at the `./3d-models` folder.
+The two 3D printed parts (front plate & base) are fixed to the PCB asembly with 2pcs M3x20 screws.  
+The parts are designed in Fusion360, and the exported files can be found at the [3d-models/](./3d-models/) folder.
 
-<img src="./docs/numpad-case-v13.front.cropped.png" width="480">
-
-<img src="./docs/numpad-case-v13.side.cropped.png" width="480">
+<img src="./docs/numpad-case-v10.front.png" height="300"> <img src="./docs/numpad-case-v10.side.png" height="280">
 
 
 ## Known Problems
@@ -43,6 +39,7 @@ The parts are designed in Fusion360, and the exported files can be found at the 
 - Hotplug shoe for keyswitch is not strong enough to hold it in place
     - Reason: there is no faceplate to hold/align the keyswitches
     - Temporary fix: use 5-pin version of keyswitches for added stability, use hotglue if necessary
+    - **NEW**: use a 3d printed positioning plate uploaded [here](./3d-models/)
 
 Hopefully all issues can be fixed in the next revision to the PCB.
 
