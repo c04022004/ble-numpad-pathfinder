@@ -20,9 +20,10 @@ Assembled PCB  w/ 3D print parts
 <img src="./docs/3dp_20230629_153547.jpg" width="480">  
 
 
-## 3D-printed Supportings
+## 3D-printed Parts
 
-The two 3D printed parts (front plate & base) are fixed to the PCB asembly with 2 M3x20 screws.
+The two 3D printed parts (front plate & base) are fixed to the PCB asembly with 2 M3x20 screws.  
+The parts are designed in Fusion360, and the exported files can be found at the `./3d-models` folder.
 
 <img src="./docs/numpad-case-v13.front.cropped.png" width="480">
 
