@@ -10,7 +10,23 @@ A pathfinder PCB for the upcoming Lipo-powered version of ESP32 BLE numpad. Ardu
 
 Assembled PCB  
 
-<img src="./docs/1x1_20221031_004049.jpg" width="480">
+<img src="./docs/1x1_20221031_004049.jpg" width="480">  
+</p>
+
+Assembled PCB  w/ 3D print parts  
+
+<img src="./docs/3dp_20230629_153543.jpg" width="480">  
+</p>
+<img src="./docs/3dp_20230629_153547.jpg" width="480">  
+
+
+## 3D-printed Supportings
+
+The two 3D printed parts (front plate & base) are fixed to the PCB asembly with 2 M3x20 screws.
+
+<img src="./docs/numpad-case-v13.front.cropped.png" width="480">
+
+<img src="./docs/numpad-case-v13.side.cropped.png" width="480">
 
 
 ## Known Problems
